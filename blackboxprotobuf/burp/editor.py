@@ -55,7 +55,7 @@ class ProtoBufEditorTab(burp.IMessageEditorTab):
 
     def getTabCaption(self):
         """Return message tab caption"""
-        return "Protobuf"
+        return "BlackboxProtobuf"
 
     def getMessage(self):
         """Transform the JSON format back to the binary protobuf message"""
